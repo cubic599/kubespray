@@ -3,15 +3,15 @@ all:
     node1:
       ansible_host: 51.250.5.195
       ip: 10.128.0.17
-      access_ip: 51.250.5.195
+      access_ip: 10.128.0.17
     node2:
       ansible_host: 51.250.64.32
       ip: 10.128.0.12
-      access_ip: 51.250.64.32
+      access_ip: 10.128.0.12
     node3:
       ansible_host: 89.169.159.252
       ip: 10.128.0.38
-      access_ip: 89.169.159.252
+      access_ip: 10.128.0.38
   children:
     kube_control_plane:
       hosts:
